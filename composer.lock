@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb36a6b0f466658969b3599df229056d",
-    "content-hash": "536126150aaaf7e0ab8789ad8a61d945",
+    "hash": "3d5f3691d639340728c0f6d10071d5f5",
+    "content-hash": "e2a2f80c6efb63b9a843ca0fe8bba91c",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -611,6 +611,41 @@
                 "mailer"
             ],
             "time": "2017-05-01 15:54:03"
+        },
+        {
+            "name": "tmukherjee13/yii2-module-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:tmukherjee13/yii2-module-core.git",
+                "reference": "87c9a9e24c4490853bf4f9a59392aabcdb5d87e5"
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "tmukherjee13\\core\\": "src"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tarun M",
+                    "email": "tmukherjee13@gmail.com"
+                }
+            ],
+            "description": "Core Module to initialize other modules",
+            "keywords": [
+                "base",
+                "initialize",
+                "module",
+                "yii2"
+            ],
+            "time": "2017-10-30 15:26:18"
         },
         {
             "name": "yiisoft/yii2",
@@ -3487,7 +3522,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "tmukherjee13/yii2-module-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
